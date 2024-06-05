@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bauhaus>
+    <Home>
+        <Name>Bauhaus</Name>
+        <Founded>1919</Founded>
+        <Founder>Walter Gropious</Founder>
+        <Description>
+            The Bauhaus, a German art and design school operating from 1919 to 1933 and founded by Walter Gropius, aimed to unify art, 
+            craftsmanship, and industry. Key figures like Paul Klee, Wassily Kandinsky, László Moholy-Nagy, and Marcel Breuer 
+            contributed significantly to various fields. The Bauhaus style emphasized functionality, simplicity, and mass production, 
+            featuring geometric shapes and minimalistic forms. Despite political challenges, its principles influenced modernist architecture 
+            and industrial desiogn globally, leaving a lasting impact on aesthetics and contemporary design practices.
+        </Description>
+    </Home>
+
+    <Authors>
+        <Person id="1">
+            <Name>Walter Gropious</Name>
+            <Picture>photos/walter.jpg</Picture>
+            <Description>
+                Founder of the Bauhaus school, Gropius was an architect and designer dedicated to integrating art, craft, and industry. 
+                His functional and innovative ideas shaped modern architecture.
+            </Description>
+        </Person>
+        <Person id="2">
+            <Name>Paul Klee</Name>
+            <Picture>photos/paul.jpg</Picture>
+            <Description>
+                A painter and professor at the Bauhaus, Klee is known for his unique style that combines expressionism, cubism, 
+                and surrealism. His work significantly contributed to color theory and form.
+            </Description>
+        </Person>
+        <Person id="3">
+            <Name>Wassily Kandinsky</Name>
+            <Picture>photos/wassily.jpg</Picture>
+            <Description>
+                A pioneering abstract artist and teacher at the Bauhaus, Kandinsky's work emphasized the spiritual and expressive 
+                potential of abstract forms and colors, influencing modern art profoundly.
+            </Description>
+        </Person>
+        <Person id="4">
+            <Name>László Moholy-Nagy</Name>
+            <Picture>photos/laszlo.jpg</Picture>
+            <Description>
+                An influential teacher at the Bauhaus, Moholy-Nagy was a painter and photographer who emphasized the integration of 
+                technology and art. His experimental approach to media and design left a lasting impact on modern visual culture.
+            </Description>
+        </Person>
+        <Person id="5">
+            <Name>Marcel Breuer</Name>
+            <Picture>photos/marcel.jpg</Picture>
+            <Description>
+                A renowned architect and furniture designer, Breuer is best known for his innovative use of tubular steel in furniture design, 
+                including the iconic Wassily Chair. His work exemplifies the Bauhaus principles of functionalism and simplicity.
+            </Description>
+        </Person>
+        <Person id="6">
+            <Name>Ludwig Mies van der Rohe</Name>
+            <Picture>photos/ludwig.jpg</Picture>
+            <Description>
+                A German-American architect known for his clean, minimalist designs that became synonymous with modernism. Mies van der 
+                Rohe served as the director of the Bauhaus school from 1930 to 1933.
+            </Description>
+        </Person>
+        
+    </Authors>
+
+    <Gallery>
+        <Photos>
+            <Photo id="1">photos/1.jpg</Photo>
+            <Photo id="2">photos/2.jpg</Photo>
+            <Photo id="3">photos/3.jpg</Photo>
+            <Photo id="5">photos/5.jpg</Photo>
+            <Photo id="6">photos/6.jpg</Photo>
+            <Photo id="8">photos/8.jpg</Photo>
+            <Photo id="4">photos/4.jpg</Photo>
+            <Photo id="7">photos/7.jpg</Photo>
+            <Photo id="9">photos/9.jpg</Photo>
+        </Photos>
+        <Author>Vito Vdović</Author>
+    </Gallery>
+</Bauhaus>

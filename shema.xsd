@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="Bauhaus">
+    <xs:complexType>
+        <xs:all>
+            <xs:element ref="Home" maxOccurs="1"/>
+            <xs:element ref="Authors" maxOccurs="1"/>
+            <xs:element ref="Gallery" maxOccurs="1"/>
+        </xs:all>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="Home">
+    <xs:complexType>
+        <xs:all>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Founded" type="xs:int"/>
+            <xs:element name="Founder" type="xs:string"/>
+            <xs:element name="Description" type="xs:string"/>
+        </xs:all>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="Authors">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element ref="Person" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="Person">
+    <xs:complexType>
+        <xs:all>
+            <xs:element name="Name" type="xs:string"/>
+            <xs:element name="Picture" type="xs:string"/>
+            <xs:element name="Description" type="xs:string"/>
+        </xs:all>
+        <xs:attribute name="id" type="xs:int"/>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="Gallery">
+    <xs:complexType>
+        <xs:all>
+            <xs:element ref="Photos" maxOccurs="1"/>
+            <xs:element name="Author" type="xs:string"/>
+        </xs:all>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="Photos">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Photo" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="id" type="xs:int"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>
